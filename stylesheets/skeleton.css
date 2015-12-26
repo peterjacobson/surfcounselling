@@ -156,6 +156,9 @@ p {
   margin-top: 0;
   margin-left: 2rem; }
 
+ul {
+  margin-left: 2rem;
+}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -386,6 +389,7 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Self Clearing Goodness */
+section:after,
 .container:after,
 .row:after,
 .u-cf {
