@@ -163,9 +163,11 @@ ul {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  text-decoration: none;
+  color: white;
+  font-weight: 600; }
 a:hover {
-  color: #0FA0CE; }
+  color: #96FFCA; }
 
 
 /* Buttons

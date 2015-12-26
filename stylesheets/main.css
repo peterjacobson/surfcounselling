@@ -29,16 +29,6 @@ header h1 {
 }
 
 .bold {
-  font-weight: 600;
-  font-size: 1.8rem;
-  background-color: #0D634B;
-  width: 95%;
-  max-width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  border-radius: 20px;
-  color: white;
 }
 
 section {
@@ -46,7 +36,7 @@ section {
 }
 
 .centered {
-  width: 100%;
+  width: 350px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -66,4 +56,63 @@ section:nth-of-type(7) {
 }
 section:nth-of-type(9) {
   background: linear-gradient(45deg, #0D634B, #0D5E55);
+}
+
+.collapse-header h2 {
+  display: inline-block;
+}
+
+.collapse-header i {
+  margin-top: 12px;
+  margin-left: 30px;
+}
+
+.collapsable {
+  overflow: hidden;
+/*  -webkit-transition: height 2s;
+  transition: height 2s;
+  transition-timing-function: ease;*/
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 1.8rem;
+  width: 95%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.collapsed {
+  height: 0;
+}
+
+.expanded {
+  height: 100%;
 }
