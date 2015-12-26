@@ -28,34 +28,79 @@ header h1 {
   overflow: hidden;
 }
 
-.bold {
-}
-
 section {
   padding-top: 20px;
-}
-
-.centered {
-  width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-section:nth-of-type(2n+3) {
-  background: linear-gradient(45deg, #0D634B, #0D5E55);
   color: white;
 }
 
+.centered {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*gradient generated at: http://www.perbang.dk/rgbgradient/*/
+section:nth-of-type(2) {
+  background: #0a6533;
+}
 section:nth-of-type(3) {
+  background: #0c6345;
+}
+section:nth-of-type(4) {
+  background: #0b643b;
 }
 section:nth-of-type(5) {
-  background: linear-gradient(45deg, #0D634B, #0D5E55);
+  background: #0b643e;
+}
+section:nth-of-type(6) {
+  background: #0d634b;
 }
 section:nth-of-type(7) {
-  background: linear-gradient(45deg, #0D634B, #0D5E55);
+  background: #0b6539;
+}
+section:nth-of-type(8) {
+  background: #0c6348;
 }
 section:nth-of-type(9) {
-  background: linear-gradient(45deg, #0D634B, #0D5E55);
+  background: #096727;
+}
+
+section:nth-of-type(4):after {
+  height: 150px;
+  width: 100%;
+  background: url(/img/seagullfogno2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 550px) {
+  section:nth-of-type(4):after {
+    height: 300px;
+  }
+}
+
+section:nth-of-type(6):after {
+  height: 100px;
+  width: 100%;
+  background: url(/img/Roadsignsurfcounselling_edited-1.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+@media (min-width: 550px) {
+  section:nth-of-type(6):after {
+    height: 300px;
+  }
+}
+
+section:last-of-type:after {
+  height: 100px;
+  width: 100%;
+  background: url(/img/daisies.jpg);
+  background-size: cover;
+  background-position: top;
+}
+@media (min-width: 550px) {
+  section:last-of-type:after {
+    height: 300px;
+  }
 }
 
 .collapse-header h2 {
@@ -77,7 +122,7 @@ section:nth-of-type(9) {
 .btn {
   font-weight: 600;
   font-size: 1.8rem;
-  width: 95%;
+  width: 85%;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
