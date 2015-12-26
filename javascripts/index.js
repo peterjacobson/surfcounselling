@@ -12,10 +12,10 @@ function toggleCollapse(e) {
   var collapsableSection = this.parentElement.children[1]
   if (icon.className.match('plus')) {
     icon.className = icon.className.replace('plus', 'minus')
-    collapsableSection.className = collapsableSection.className.replace('collapsed', 'expanded')
+    Velocity(collapsableSection, { height: '100%' }, { duration: 600, easing: "swing"})
   } else {
     icon.className = icon.className.replace('minus', 'plus')
-    collapsableSection.className = collapsableSection.className.replace('expanded', 'collapsed')
+    Velocity(collapsableSection, { height: 0 }, { duration: 400, easing: "swing"})
   }
 }
 
