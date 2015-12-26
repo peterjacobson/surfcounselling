@@ -9,7 +9,7 @@ header {
   width: 100%;
   height: 400px;
   overflow: hidden;
-  background: #0d635e;
+  background: #285B5E;
   background-image: url(/img/ningnongsurfonlysea.png);
   background-size: cover;
   background-position-x: 60%;
@@ -68,6 +68,7 @@ section:nth-of-type(9) {
 section:nth-of-type(4):after {
   height: 150px;
   width: 100%;
+  background: #5D5B5C;
   background: url(/img/seagullfogno2.jpg);
   background-size: cover;
   background-position: center;
@@ -81,6 +82,7 @@ section:nth-of-type(4):after {
 section:nth-of-type(6):after {
   height: 100px;
   width: 100%;
+  background: #C8D4DC;
   background: url(/img/Roadsignsurfcounselling_edited-1.jpg);
   background-size: cover;
   background-position: bottom;
@@ -94,6 +96,7 @@ section:nth-of-type(6):after {
 section:last-of-type:after {
   height: 100px;
   width: 100%;
+  background: #223600;
   background: url(/img/daisies.jpg);
   background-size: cover;
   background-position: top;
