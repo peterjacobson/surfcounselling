@@ -9,6 +9,7 @@ header {
   width: 100%;
   height: 400px;
   overflow: hidden;
+  background: #0d635e;
   background-image: url(/img/ningnongsurfonlysea.png);
   background-size: cover;
   background-position-x: 60%;
