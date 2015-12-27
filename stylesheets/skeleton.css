@@ -153,19 +153,22 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 p {
-  font-size: 2rem;
-  margin-top: 0;
-  margin-left: 2rem; }
+  font-size: 1.7rem;
+  padding-top: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
 ul {
-  margin-left: 3rem;
+  font-size: 1.7rem;
+  margin-top: 1.2rem;
+  margin-left: 3.5rem;
+  margin-right: 2rem;
 }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   text-decoration: none;
-  color: white;
   font-weight: 600; }
 a:hover {
   color: #96FFCA; }

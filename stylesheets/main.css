@@ -29,7 +29,7 @@ header h1 {
   overflow: hidden;
 }
 
-section {
+.collapse-header {
   padding-top: 20px;
   color: white;
 }
@@ -40,28 +40,29 @@ section {
   margin-right: auto;
 }
 /*gradient generated at: http://www.perbang.dk/rgbgradient/*/
-section:nth-of-type(2) {
-  background: #0a6533;
+
+.color-1 {
+  background: #3F6C86;
 }
-section:nth-of-type(3) {
-  background: #0c6345;
+.color-2 {
+  background: #376B78;
 }
-section:nth-of-type(4) {
-  background: #0b643b;
+.color-3 {
+  background: #2F6A6A;
 }
-section:nth-of-type(5) {
-  background: #0b643e;
+.color-4 {
+  background: #27695D;
 }
-section:nth-of-type(6) {
-  background: #0d634b;
+.color-5 {
+  background: #20694F;
 }
-section:nth-of-type(7) {
-  background: #0b6539;
+.color-6 {
+  background: #186842;
 }
-section:nth-of-type(8) {
-  background: #0c6348;
+.color-7 {
+  background: #106734;
 }
-section:nth-of-type(9) {
+.color-8 {
   background: #096727;
 }
 
@@ -118,9 +119,11 @@ section:last-of-type:after {
 
 .collapsable {
   overflow: hidden;
-/*  -webkit-transition: height 2s;
-  transition: height 2s;
-  transition-timing-function: ease;*/
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .btn {
@@ -158,18 +161,10 @@ section:last-of-type:after {
   text-decoration: none;
 }
 
+.btn a {
+  color: white;
+}
+
 .collapsed {
-  height:0;
-}
-
-.expanded {
-/*  animation-name: expand;
-  animation-timing-function: ease;
-  animation-duration: 2s;*/
-  height: 100%;
-}
-
-@keyframes expand {
-  from {height: 0;}
-  to {height: auto;}
+  height: 0;
 }
